@@ -10,5 +10,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: '/auth/login', // Ensure this is set correctly for deployment
+  base: '/', // Ensure this is set correctly for deployment
 });
